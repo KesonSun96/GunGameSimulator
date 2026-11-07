@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "buildFlashMonitor": false,
+      "name": "GG: Built-in JTAG (HID disabled)",
+      "gdb": "${command:espIdf.getToolchainGdb}",
+      "request": "attach",
+      "program": "${workspaceFolder}/build-jtag/pedal_controller.elf",
+      "runOpenOCD": true,
+      "preLaunchTask": "GG: Flash JTAG",
+      "type": "gdbtarget",
+      "initialBreakpoint": "app_main"
+    }
+  ],
+  "version": "0.2.0"
+}

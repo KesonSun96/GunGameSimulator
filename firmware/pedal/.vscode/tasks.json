@@ -1,0 +1,8 @@
+{
+ "version": "2.0.0",
+ "tasks": [
+  {"label":"Pedal: Build","type":"shell","command":"powershell","args":["-NoProfile","-ExecutionPolicy","Bypass","-File","${workspaceFolder}/../../tools/pedal.ps1","build"],"group":{"kind":"build","isDefault":true},"problemMatcher":"$gcc"},
+  {"label":"Pedal: Flash (ST-Link)","type":"shell","command":"powershell","args":["-NoProfile","-ExecutionPolicy","Bypass","-File","${workspaceFolder}/../../tools/pedal.ps1","flash"],"problemMatcher":"$gcc"},
+  {"label":"Pedal: USB host tests","type":"shell","command":"powershell","args":["-NoProfile","-ExecutionPolicy","Bypass","-File","${workspaceFolder}/../../tools/pedal.ps1","test"],"problemMatcher":"$gcc"}
+ ]
+}

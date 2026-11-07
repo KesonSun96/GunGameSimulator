@@ -1,0 +1,3 @@
+# Normal gameplay build.
+# CONFIG_GG_DEBUG_NO_USB_HID is not set
+CONFIG_COMPILER_OPTIMIZATION_PERF=y

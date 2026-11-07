@@ -1,0 +1,13 @@
+build*/
+sdkconfig
+sdkconfig.old
+sdkconfig.hid*
+sdkconfig.jtag*
+managed_components/
+tools/local.json
+*.log
+*.bin
+*.elf
+*.map
+
+.pio/

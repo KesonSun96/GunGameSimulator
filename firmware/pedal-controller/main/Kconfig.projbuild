@@ -1,0 +1,8 @@
+menu "GunGame debug options"
+    config GG_DEBUG_NO_USB_HID
+        bool "Disable USB HID to retain built-in USB JTAG"
+        default n
+        help
+            Build a disconnected HID stub instead of installing TinyUSB.
+            Use only for input debugging, not gameplay.
+endmenu

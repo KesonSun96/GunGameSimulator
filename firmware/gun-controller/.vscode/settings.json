@@ -1,0 +1,15 @@
+{
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build-jtag/compile_commands.json",
+  "files.associations": {
+    "*.h": "c"
+  },
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.buildPath": "${workspaceFolder}/build-jtag",
+  "files.exclude": {
+    "**/build-hid": true,
+    "**/managed_components": true,
+    "**/build-jtag": true
+  }
+}

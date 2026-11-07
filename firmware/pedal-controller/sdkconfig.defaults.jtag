@@ -1,0 +1,4 @@
+# Keep native USB available to the built-in JTAG adapter.
+CONFIG_GG_DEBUG_NO_USB_HID=y
+# CONFIG_COMPILER_OPTIMIZATION_PERF is not set
+CONFIG_COMPILER_OPTIMIZATION_DEBUG=y

@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Overview"
+    },
+    {
+      "path": "firmware/gun-controller",
+      "name": "Gun"
+    },
+    {
+      "path": "firmware/pedal-controller",
+      "name": "Pedal ESP32 (legacy)"
+    },
+    {
+      "path": "firmware/pedal",
+      "name": "Pedal STM32"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "espressif.esp-idf-extension",
+      "ms-vscode.cpptools",
+      "platformio.platformio-ide"
+    ]
+  }
+}
